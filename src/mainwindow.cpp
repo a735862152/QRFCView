@@ -283,7 +283,8 @@ void MainWindow::print()
 
 void MainWindow::about()
 {
-    QString displayText = QString("<b>qRFCView</b><br> A smart RFC Viewer using the Qt5 library.<br><br> Mitsubishi Electric, 2005")
+    QString displayText = QString("<b>qRFCView</b><br> A smart RFC Viewer using the Qt5 library.<br><br> Mitsubishi Electric, 2019.5")
+               +QString("<br><br>souce code at https://github.com/a735862152/QRFCView, email:a735862152@163.com")
                + QString("<br><div>Icons made by <a href=\"https://www.flaticon.com/authors/popcorns-arts\" title=\"Icon Pond\">Icon Pond</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a> ")
                + QString("is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a></div>");
     QMessageBox::about(this, tr("About qRFCView"),
